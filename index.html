@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/?size=100&amp;id=13186&amp;format=png&amp;color=000000">
+    <link rel="stylesheet" href="style.css">
+    <title>lab 3</title>
+</head>
+<body>
+    <header class="grey-bkg">
+        <h1>Lab 3 - Rock Paper Scissors</h1>
+    </header>
+
+    <nav class="nav-bar">
+        <ul class="tabs">
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
+        </ul>
+    </nav>
+
+    <section class= hero>
+        <div class="col-1 flex-main">
+            <h2>Please choose one of the following.</h2>
+            <br>
+            <form action="#">
+
+                <!-- Name-->
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Choices-->
+                <div class="choices">
+                    <label for="choice">Your Choice:</label>
+                    <select name="choice" id="choice">
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+                </div>
+
+                <!-- Submit Button-->
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="col-2 flex-main">
+            <h2>Rules</h2>
+            <br>
+            <h2>You must choose Rock, Paper, or Scissors</h2>
+            <br>
+            <h2>The combos are as follows:</h2>
+            <br>
+            <ul>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+            </ul>
+        </div>
+    </section>
+    <footer class="grey-bkg">
+        <p>This is a footer, maybe I should make it interesting, but I am pretty boring.</p>
+    </footer>
+    
+</body>
+</html>
